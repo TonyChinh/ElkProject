@@ -1,7 +1,6 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-
 ![github-small](https://github.com/TonyChinh/ElkProject/blob/master/RedTeamDiagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. 
@@ -43,7 +42,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Elk machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - 40.78.15.8
--Personal IP
+- Personal IP
 
 Machines within the network can only be accessed by Jump Box Provisioner.
 - We allowed our Jump Box provisioner to connect to our Elk server through connection of our containers. The IP address of the ELK server is 40.122.108.167.
@@ -68,7 +67,6 @@ The playbook implements the following tasks:
 - Install Docker module via PIP3
 - Command to increase Virtual Memory
 - Download and Launch ELK container
-
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
